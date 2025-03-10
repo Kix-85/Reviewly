@@ -1,0 +1,97 @@
+#main {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+}
+
+.blur {
+    background-color: #121212c0;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+#poster{
+    height: 450px;
+    border-radius: 5px;
+}
+.poster{
+    height: 450px;
+    width: fit-content;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.movie {
+    line-height: 30px;
+    align-self: flex-end;
+    height: 450px;
+}
+
+.movie h1 {
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+
+.movie h4 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+.movie p{
+    font-size: 1.2rem;
+}
+
+@media(max-width:500px){
+    .movie h1{
+        font-size: 2.1rem;
+    }
+    .movie h4{
+        font-size: 1.2rem;
+    }
+    .movie p{
+        font-size: 0.85rem;
+    }
+}
+
+@media(max-width:600px){
+    .movie h1{
+        font-size: 2.3rem;
+    }
+    .movie h4{
+        font-size: 1.4rem;
+    }
+    .movie p{
+        font-size: 0.9rem;
+    }
+}
+
+@media(max-width:780px){
+    .movie h1{
+        font-size: 2.5rem;
+    }
+    .movie h4{
+        font-size: 1.6rem;
+    }
+    .movie p{
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width:1003px){
+    .movie{
+        width: 100%;
+        height: fit-content;
+    }
+    .movie h1{
+        font-size: 2.8rem;
+    }
+    .movie h4{
+        font-size: 1.8rem;
+    }
+    .movie p{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,48 @@
+body{
+  background-color: #030a1b !important;
+}
+.navbar{
+  background-color: transparent;
+}
+.navbar-content{
+  background-color: rgba(0, 0, 0, 0.073);
+  color: white;
+  border: #228ee5 1px solid;
+  border-radius: 6px;
+}
+.nav-link{
+  color: white;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.nav-link:hover{
+  color: #d7dce18f;
+}
+.active{
+  color: white !important;
+  text-decoration: overline #228ee5;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.active:hover{
+  color: #228ee5 !important;
+}
+.form{
+  min-height: 300px;
+}
+#input{
+  background-color: rgba(0, 0, 0, 0.073);
+  color: white;
+  border: #228ee5 1px solid;
+}
+#input::placeholder {
+  color: white;
+  opacity: 0.6;
+}
+.btn-outline-light,.see-more{
+  background-color: rgba(0, 0, 0, 0.073);
+  color: white;
+  border: #228ee5 1px solid;
+  border-radius: 6px;
+}
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container-xl, .navbar > .container-xxl {
+  width: 80%;
+}
